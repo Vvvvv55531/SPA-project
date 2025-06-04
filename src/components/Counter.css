@@ -1,5 +1,76 @@
-.c-bg {
+.counter {
     background-color: #CB3A1A;
     width: 100%;
-    height: 917px;
+    height: 970px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.counter-left {
+    width: 220px;
+    height: 600px;
+    margin-right: 110px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.c-numbers {
+    width: 220px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+}
+
+.c-number {
+    color: #FFFFFF;
+    font-size: 80px;
+    font-family: "Jost", sans-serif;
+    font-weight: bold;
+    padding-right: 20px;
+}
+
+.c-name {
+    color: #FFFFFF;
+    font-size: 16px;
+    font-family: "Jost", sans-serif;
+    font-weight: bold;
+}
+
+.counter-right {
+    background-color: #FFFFFF;
+    width: 950px;
+    height: 600px;
+}
+
+.c-big-text {
+    color: #111111;
+    font-size: 60px;
+    font-family: "Jost", sans-serif;
+    font-weight: bold;
+    margin: 70px 70px 0 0;
+    text-align: right;
+}
+
+.c-small-text {
+    color: #74787C;
+    font-size: 16px;
+    font-family: "Jost", sans-serif;
+    margin: 10px 66px 0 70px;
+}
+
+.c-points li {
+    color: #74787C;
+    font-size: 16px;
+    font-family: "Jost", sans-serif;
+    font-weight: bold;
+    margin: 40px 0 0 40px;
+    list-style: none;
+    background: linear-gradient(to right, #b3b3b3, #FFFFFF);
+}
+
+.c-sign {
+    background-color: #FFFFFF;
+    padding-right: 20px;
 }
