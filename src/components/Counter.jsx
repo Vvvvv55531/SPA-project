@@ -41,7 +41,7 @@ function Counter() {
             <div className="counter-right">
                 <p className="c-big-text">САМОЕ НАДЕЖНОЕ ЗАВЕДЕНИЕ</p>
                 <p className="c-small-text">
-                Мы — место, где стабильность важнее трендов.  
+                Мы – место, где стабильность важнее трендов.  
                 Здесь каждый гость уверен: любимый напиток  
                 всегда будет приготовлен безупречно.  
                 С момента открытия и до сих пор  
@@ -52,11 +52,11 @@ function Counter() {
                 </p>
                 <ul className="c-points">
                     <li><img className="c-sign" src={sign_img} alt="sign_img">
-                    </img>a</li>
+                    </img>Анализ отзывов гостей для создания исключительной атмосферы кофейни</li>
                     <li><img className="c-sign" img src={sign_img} alt="sign_img">
-                    </img>b</li>
+                    </img>Используем отзывы, чтобы поднять репутацию кофейни на новый уровень</li>
                     <li><img className="c-sign" img src={sign_img} alt="sign_img">
-                    </img>c</li>
+                    </img>Разбираем обратную связь, чтобы улучшить сервис и меню кофейни</li>
                 </ul>
             </div>
         </article>

@@ -1,0 +1,95 @@
+.s-team-section {
+  height: 1550px;
+  padding: 80px 0;
+  background-color: #181818;
+  font-family: "Jost", sans-serif;
+}
+
+.s-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.s-section-header {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.s-section-subtitle {
+  font-size: 18px;
+  color: #CB3A1A;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.s-section-title {
+  font-size: 48px;
+  color: #FFFFFFFF;
+  font-weight: 700;
+  margin: 0;
+}
+
+.s-team-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+  justify-content: center;
+}
+
+.s-team-card {
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.s-team-card:hover {
+  transform: translateY(-10px);
+}
+
+.s-card-image {
+  height: 350px;
+  overflow: hidden;
+}
+
+.s-card-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+.s-team-card:hover .s-card-image img {
+  transform: scale(1.05);
+}
+
+.s-card-content {
+  padding: 25px;
+  text-align: center;
+}
+
+.s-barista-name {
+  font-size: 22px;
+  color: #111111;
+  margin-bottom: 5px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.s-barista-position {
+  color: #CB3A1A;
+  font-size: 16px;
+  margin-bottom: 15px;
+  font-weight: 500;
+}
+
+.s-barista-bio {
+  color: #666;
+  line-height: 1.6;
+  font-size: 15px;
+  margin: 0;
+}

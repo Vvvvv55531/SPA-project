@@ -7,7 +7,7 @@ import Testimonial from "../components/Testimonial"
 import Banner from "../components/Banner"
 import Footer from "../components/Footer"
 
-export function Home() {
+function Home() {
     return (
         <>
         <Header />
@@ -21,3 +21,5 @@ export function Home() {
         </>
     )
 }
+
+export default Home;

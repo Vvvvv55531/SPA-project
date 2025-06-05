@@ -1,4 +1,5 @@
 import "./Header.css"
+import { Link } from "react-router-dom";
 import logo_img from "../images/main/header_logo.png"
 import sign_img from "../images/main/header_sign.png"
 
@@ -6,38 +7,31 @@ function Header() {
     return (
         <header>
             <div className="header-top">
-                <div className="h-left">
-                    <span className="h-info">ПН-СР 11:00-9:00</span> 
-                    <span className="h-separator">⬥</span>
-                    <span className="h-info">ЧТ-СБ 11:00-10:00</span>
-                </div>
-                <div className="h-right">
-                    <span className="h-info">drew.cafe@gmail.com</span> 
-                    <span className="h-separator">⬥</span>
-                    <span className="h-info">8988-456-87-82</span>
-                    <span className="h-separator">⬥</span>
-                    <span className="h-info">ул. Чайковского, д. 18, г. Санкт-Петербург, 191123</span>
-                </div>
+                <span className="h-info">ПН-СР 11:00-9:00 
+                ⬥ ЧТ-СБ 11:00-10:00
+                ⬥ drew.cafe@gmail.com 
+                ⬥ 8988-456-87-82 
+                ⬥ ул. Чайковского, д. 18, г. Санкт-Петербург, 191123
+                </span> 
             </div>
             <div className="header-bottom">
                 <div className="h-left-logo">
                    <img className="h-img-logo" src={logo_img} alt="logo"/>
-                   <span className="h-name">DREW</span>
+                   <span className="h-name">BREW</span>
                 </div>
                 <nav className="h-nav">
                     <ul className="h-nav-list">
-                        <li className="h-nav-item">ГЛАВНАЯ</li>
-                        <li className="h-nav-item">МЕНЮ</li>
-                        <li className="h-nav-item">О НАС</li>
-                        <li className="h-nav-item">ПЕРСОНАЛ</li>
-                        <li className="h-nav-item">КОНТАКТЫ</li>
+                        <li><Link className="h-nav-item" to="/" >О НАС</Link></li>
+                        <li><Link className="h-nav-item"  to="/menu" >МЕНЮ</Link></li>
+                        <li><Link className="h-nav-item"  to="/staff" >ПЕРСОНАЛ</Link></li>
+                        <li><Link className="h-nav-item"  to="/contacts" >КОНТАКТЫ</Link></li>
                     </ul>
                 </nav>
                 <div className="h-right">
-                    <div className="h-button">
+                    <Link to="/order" className="h-button">
                         <span>СДЕЛАТЬ ЗАКАЗ</span>
                         <img className="h-img-sign" src={sign_img} alt="sign"/>
-                   </div>
+                   </Link>
                 </div>
             </div>
         </header>

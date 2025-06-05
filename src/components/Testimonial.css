@@ -1,14 +1,14 @@
 .testimonal {
-    background-color: #111111;
     width: 100%;
     height: 795px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    z-index: -2;
 }
 
 .testimonal-name {
-    margin-top: 100px;
+    margin-top: 110px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -16,17 +16,36 @@
 
 .t-text {
     color: #FFFFFF;
-    font-size: 60px;
+    font-size: 38px;
     font-family: "Jost", sans-serif;
     font-weight: bold;
 }
 
+.t-review-img {
+    background-color: #363636;
+    width: 136px;
+    height: 183px;
+    margin-right: 30px;
+}
+
+.t-sign-2 {
+    width: 140px;
+    height: 20px;
+    margin-right: 22px;
+}
+
+.t-sign-3 {
+    width: 44px;
+    height: 35px;
+    margin-top: 10px;
+}
+
 .t-reviews {
-    width: 1280px;
+    width: 1300px;
     height: 320px;
     display: flex;
     justify-content: space-between;
-    margin-top: 100px;
+    margin-top: 70px;
 }
 
 .t-review {
@@ -37,18 +56,35 @@
     flex-direction: column;
 }
 
+.t-review-top {
+    display: flex;
+    margin: 30px 40px 0 30px;
+}
+
+.t-review-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 40px 0 28px;
+}
+
 .t-review-name {
     color: #111111;
-    font-size: 22px;
+    font-size: 16px;
     font-family: "Jost", sans-serif;
     font-weight: bold;
-    margin: 45px 0 0 70px;
+    margin-top: 10px;
 }
 
 .t-review-desc {
     color: #74787C;
-    font-size: 16px;
+    font-size: 15px;
     font-family: "Jost", sans-serif;
-    font-weight: bold;
-    margin: 5px 0 0 70px;
+}
+
+.t-image {
+    width: 100%;
+    height: 795px;
+    position: absolute;
+    z-index: -1;
 }
