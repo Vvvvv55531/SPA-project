@@ -1,17 +1,18 @@
 .footer {
     background-color: #111111;
     width: 100%;
-    height: 300px;
-    display: flex;
-    justify-content: center;
-}
-
-.footer-left {
+    height: 400px;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
-    margin: 100px 0;
+}
+
+.f-separator {
+    color: #FFFFFF;
+    width: 400px;
+    height: 5px;
+    margin-top: 15px;
 }
 
 .f-info {
@@ -20,7 +21,7 @@
     font-family: "Jost", sans-serif;
 }
 
-.f-left-logo {
+.f-logo {
     display: flex;
     align-items: center;
 }
@@ -36,4 +37,17 @@
     font-family: "Jost", sans-serif;
     margin-left: 25px;
     letter-spacing: 12px;
+}
+
+.f-icons {
+    margin-top: 70px;
+}
+
+.f-icon {
+    width: 75px;
+    height: 75px;
+}
+
+.f-icon:nth-child(n+2) {
+    margin-left: 25px;
 }

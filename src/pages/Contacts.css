@@ -1,0 +1,130 @@
+.contacts-section {
+    padding: 120px 0;
+    background-color: #f9f5f0;
+    font-family: "Jost", sans-serif;
+}
+
+.c-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.c-section-header {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.c-section-subtitle {
+    font-size: 18px;
+    color: #CB3A1A;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.c-section-title {
+    font-size: 48px;
+    color: #2a2a2a;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.c-section-description {
+    color: #666;
+    font-size: 18px;
+    max-width: 700px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+
+.contacts-content {
+    margin-top: 110px;
+    margin-bottom: 80px;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 60px;
+}
+
+@media (min-width: 900px) {
+  .contacts-content {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.contacts-info {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.contacts-block {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+}
+
+.contacts-icon {
+    flex-shrink: 0;
+    width: 20px;
+    height: 20px;
+    background-color: #cb3a1a9d;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contacts-title {
+    font-size: 20px;
+    color: #2a2a2a;
+    margin-bottom: 10px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.contacts-text {
+    color: #666;
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 5px;
+}
+
+.c-about-info {
+    background: white;
+    padding: 40px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+}
+
+.c-about-title {
+    font-size: 24px;
+    color: #2a2a2a;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.c-about-text {
+    color: #666;
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+@media (max-width: 750px) {
+  .c-section-title {
+    font-size: 36px;
+  }
+  
+  .c-section-description {
+    font-size: 16px;
+  }
+  
+  .contacts-block {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .c-about-info {
+    padding: 30px;
+  }
+}

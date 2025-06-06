@@ -64,11 +64,10 @@
     color: #74787C;
     font-size: 16px;
     font-family: "Jost", sans-serif;
-    font-weight: bold;
-    margin: 20px 0 0 40px;
+    margin: 25px 0 0 40px;
     padding: 10px;
     list-style: none;
-    background: linear-gradient(to right, #E9DEE0, #FFFFFF);
+    background: linear-gradient(to right, #f0e8e9, #FFFFFF);
 }
 
 .c-sign {

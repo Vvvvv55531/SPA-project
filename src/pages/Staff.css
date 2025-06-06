@@ -1,95 +1,102 @@
 .s-team-section {
-  height: 1550px;
-  padding: 80px 0;
-  background-color: #181818;
-  font-family: "Jost", sans-serif;
+    height: 1160px;
+    padding: 80px 0;
+    background-color: #181818;
+    font-family: "Jost", sans-serif;
 }
 
 .s-container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 20px;
+    max-width: 1325px;
+    margin: 0 auto;
+    padding: 0 20px;
 }
 
 .s-section-header {
-  text-align: center;
-  margin-bottom: 50px;
+    text-align: center;
+    margin-bottom: 90px;
+}
+
+.s-section-img {
+    width: 75px;
+    height: 60px;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .s-section-subtitle {
-  font-size: 18px;
-  color: #CB3A1A;
-  letter-spacing: 2px;
-  margin-bottom: 10px;
-  text-transform: uppercase;
+    color: #CB3A1A;
+    font-size: 18px;
+    letter-spacing: 2px;
+    margin: 15px 0;
 }
 
 .s-section-title {
-  font-size: 48px;
-  color: #FFFFFFFF;
-  font-weight: 700;
-  margin: 0;
+    font-size: 48px;
+    color: #FFFFFFFF;
+    font-weight: bold;
+    margin: 0;
 }
 
 .s-team-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 30px;
-  justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    justify-content: center;
 }
 
 .s-team-card {
-  background: white;
-  border-radius: 10px;
-  overflow: hidden;
-  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
-  transition: transform 0.3s ease;
+    height: 560px;
+    background: white;
+    box-shadow: -15px 15px #cb3a1aab;
+    transition: transform 0.3s ease;
 }
 
 .s-team-card:hover {
-  transform: translateY(-10px);
+    transform: translateY(-10px);
 }
 
 .s-card-image {
-  height: 350px;
-  overflow: hidden;
+    width: 410px;
+    height: 302px;
+    overflow: hidden;
+    margin-bottom: 20px;
 }
 
 .s-card-image img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  transition: transform 0.5s ease;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s ease;
 }
 
 .s-team-card:hover .s-card-image img {
-  transform: scale(1.05);
+    transform: scale(1.05);
 }
 
 .s-card-content {
-  padding: 25px;
-  text-align: center;
+    padding: 25px;
+    text-align: center;
 }
 
 .s-barista-name {
-  font-size: 22px;
-  color: #111111;
-  margin-bottom: 5px;
-  font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: 1px;
+    font-size: 22px;
+    color: #111111;
+    margin-bottom: 5px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
 }
 
 .s-barista-position {
-  color: #CB3A1A;
-  font-size: 16px;
-  margin-bottom: 15px;
-  font-weight: 500;
+    color: #CB3A1A;
+    font-size: 16px;
+    margin-bottom: 15px;
+    font-weight: 500;
 }
 
 .s-barista-bio {
-  color: #666;
-  line-height: 1.6;
-  font-size: 15px;
-  margin: 0;
+    color: #666;
+    line-height: 1.6;
+    font-size: 15px;
+    margin: 0;
 }
